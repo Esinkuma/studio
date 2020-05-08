@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.1.3",
         "botman/botman": "~2.0",
-        "botman/driver-twilio": "^1.2",
+        "botman/driver-twilio": "dev-master",
         "botman/driver-web": "~1.0",
         "botman/studio-addons": "~1.3",
         "botman/tinker": "~1.0",
@@ -28,6 +28,12 @@
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Esinkuma/driver-twilio.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database/seeds",
