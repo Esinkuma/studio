@@ -64,7 +64,19 @@
                     "BotMan\\BotMan\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "BotMan\\BotMan\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ],
+                "cs": [
+                    "php-cs-fixer fix"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -77,10 +89,13 @@
             "description": "Create messaging bots in PHP with ease.",
             "homepage": "http://github.com/botman/botman",
             "keywords": [
-                "Botman",
-                "bot",
-                "chatbot"
+                "Bot",
+                "BotMan",
+                "Chatbot"
             ],
+            "support": {
+                "source": "https://github.com/Esinkuma/botman/tree/2.5.0"
+            },
             "time": "2019-05-14T21:18:37+00:00"
         },
         {
@@ -89,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Esinkuma/driver-twilio.git",
-                "reference": "3c1e87ddb71f81da04ca0e4e531379ef276ab630"
+                "reference": "c6132bdc4b15ea152e35d712004a42a77080f1d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Esinkuma/driver-twilio/zipball/3c1e87ddb71f81da04ca0e4e531379ef276ab630",
-                "reference": "3c1e87ddb71f81da04ca0e4e531379ef276ab630",
+                "url": "https://api.github.com/repos/Esinkuma/driver-twilio/zipball/c6132bdc4b15ea152e35d712004a42a77080f1d6",
+                "reference": "c6132bdc4b15ea152e35d712004a42a77080f1d6",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +169,7 @@
             "support": {
                 "source": "https://github.com/Esinkuma/driver-twilio/tree/master"
             },
-            "time": "2020-05-08T16:21:22+00:00"
+            "time": "2020-05-10T15:16:02+00:00"
         },
         {
             "name": "botman/driver-web",
